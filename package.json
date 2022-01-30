@@ -4,6 +4,7 @@
   "description": "Aplikasi Les Privat Pengemudi, menggunakan Node Js",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Nofrisdan/pengemudi-app/issues"
   },
-  "homepage": "https://github.com/Nofrisdan/pengemudi-app#readme"
+  "homepage": "https://github.com/Nofrisdan/pengemudi-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql": "^2.18.1"
+  }
 }
