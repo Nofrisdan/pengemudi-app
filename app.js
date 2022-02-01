@@ -7,7 +7,7 @@ const express = require("express"),
     // configure
     app.set("view engine","ejs");
     app.use(layout);
-    app.set("layout","layout/layout");
+    // app.set("layout","layout/layout");
 
     // static path
     app.use("/dp",express.static("./public/dp/"));
@@ -16,7 +16,6 @@ const express = require("express"),
     // routes
     const routes = require("./routes");
     routes(app);
-
 
     // listen
     app.listen(port,() => {
