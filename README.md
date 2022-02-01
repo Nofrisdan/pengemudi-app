@@ -24,5 +24,5 @@ git clone https://github.com/Nofrisdan/pengemudi-app.git
 ### Mobile
 <img src="public/img/mobile.png">
 
-### Mobile
+### Dekstop
 <img src="public/img/dekstop.png">
