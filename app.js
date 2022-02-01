@@ -3,7 +3,7 @@ const express = require("express"),
     port = 3000,
     app = express();
 
-
+    
     // configure
     app.set("view engine","ejs");
     app.use(layout);
@@ -12,6 +12,7 @@ const express = require("express"),
     // static path
     app.use("/dp",express.static("./public/dp/"));
     app.use("/kn",express.static("./public/kn/"));
+    // app.use("/dwonload",express.static("./public/img/"));
     
     // routes
     const routes = require("./routes");
