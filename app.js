@@ -10,9 +10,9 @@ const express = require("express"),
     app.set("layout","layout/layout");
 
     // static path
+    app.use("/dp",express.static("./public/dp/"));
+    app.use("/kn",express.static("./public/kn/"));
     
-
-
     // routes
     const routes = require("./routes");
     routes(app);
